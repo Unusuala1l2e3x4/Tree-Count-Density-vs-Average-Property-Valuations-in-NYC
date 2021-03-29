@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<dc:title>pandas Python Library</dc:title>
+	<dc:subject>DataFrame</dc:subject>
+	<dc:description>Library Version: 1.0.5. pandas is an open source library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
+	DataFrame is a two-dimensional, size-mutable, potentially heterogeneous tabular data.
+	</dc:description>
+	<dc:date>2020-06-17</dc:date>
+	<dc:source>https://pandas.pydata.org/docs/reference/index.html</dc:source>
+	<dc:rights>BSD-3-Clause License</dc:rights>
+
+	<dc:title>matplotlib Python Library</dc:title>
+	<dc:creator>John D. Hunter and Open Source Contributers: https://github.com/matplotlib/matplotlib/tree/v3.3.3</dc:creator>
+	<dc:description>Library Version: 3.3.3. Used for plotting histograms and scatterplots</dc:description>
+	<dc:date>2020-11-12</dc:date>
+	<dc:publisher>IEEE COMPUTER SOC</dc:publisher>
+	<dc:source>https://matplotlib.org/3.3.3/contents.html</dc:source>
+	<dc:rights>MIT License</dc:rights>
+
+	<dc:title>statsmodels: Econometric and statistical modeling with Python</dc:title>
+	<dc:creator>Seabold, Skipper and Perktold, Josef</dc:creator>
+	<dc:description>Library Version: v0.12.1. classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration.
+	</dc:description>
+	<dc:date>2020-08-29</dc:date>
+	<dc:source>https://www.statsmodels.org/stable/index.html#index--page-root</dc:source>
+	<dc:rights>BSD (3-clause) license</dc:rights>
+
+	<dc:title>scikit-learn Python Library</dc:title>
+	<dc:creator> Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V. and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P. and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E.</dc:creator>
+	<dc:creator>Open Source contributions: https://github.com/scikit-learn/scikit-learn</dc:creator>>
+	<dc:description>Library Version 1.0.0. Simple and efficient tools for predictive data analysis</dc:description>
+	<dc:publisher>scikit-learn developers (BSD License)</dc:publisher>>
+	<dc:source>https://github.com/scikit-learn/scikit-learn</dc:source>
+	<dc:rights>BSD (3-clause) license</dc:rights>
+
+
+	<dc:title>trees_by_zip.csv Dataset Column Variables</dc:title>
+	<dc:creator>Team 8</dc:creator>
+	<dc:subject>Column 1: zipcode</dc:subject>
+	<dc:subject>Column 2: number_of_trees</dc:subject>
+	<dc:description>Column 1: All NYC zipcodes. Integer datatype
+	</dc:description>
+	<dc:description>Column 2: Tree count density. Number of trees recorded in each particular NYC zip code marked area. Integer datatype
+	</dc:description>
+	<dc:rights>None</dc:rights>
+
+	<dc:title>property_value_by_zip.csv Dataset Column Variables</dc:title>
+	<dc:creator>Team 8</dc:creator>
+	<dc:subject>Column 1: zipcode</dc:subject>
+	<dc:subject>Column 2: mean</dc:subject>
+	<dc:subject>Column 3: median</dc:subject>
+	<dc:subject>Column 4: min</dc:subject>
+	<dc:subject>Column 5: max</dc:subject>
+	<dc:subject>Column 6: count</dc:subject>
+	<dc:description>Column 1: All NYC zipcodes. Integer datatype
+	</dc:description>
+	<dc:description>Column 2: Mean property valuation recorded for each particular NYC zip code marked area. Float datatype
+	</dc:description>
+	<dc:description>Column 3: Median property valuation recorded for each particular NYC zip code marked area. Float datatype
+	</dc:description>
+	<dc:description>Column 4: Minimum property valuation recorded for each particular NYC zip code marked area. Float datatype
+	</dc:description>
+	<dc:description>Column 5: Maximum property valuation recorded for each particular NYC zip code marked area. Float datatype
+	</dc:description>
+	<dc:description>Column 6: Number of recorded property valuations in each particular NYC zip code marked area. Integer datatype
+	</dc:description>
+
+	<dc:rights>None</dc:rights>
+
+	<dc:title>species_by_zip.csv Dataset Column Variables</dc:title>
+	<dc:creator>Team 8</dc:creator>
+	<dc:subject>Column 1: zipcode</dc:subject>
+	<dc:subject>Column 2 - 133: Species</dc:subject>
+	<dc:description>Column 1: All NYC zipcodes. Integer datatype
+	</dc:description>
+	<dc:description>Column 2 - 133: There are 132 different species of trees recorded in the NYC Tree Census data. Each column represents the number trees of that particular species recorded for the zipcodes in "zipcodes" column. Integer datatype
+	</dc:description>
+
+	<dc:rights>None</dc:rights>
+
+	<dc:title>zipcodes.csv Dataset Column Variables</dc:title>
+	<dc:creator>Team 8</dc:creator>
+	<dc:subject>Column 1: zipcode</dc:subject>
+	<dc:subject>Column 2: number_of_trees</dc:subject>
+	<dc:subject>Column 3: mean_property_value</dc:subject>
+	<dc:subject>Column 4: zipcode</dc:subject>
+	<dc:subject>Column 5 - 136: Species</dc:subject>
+	<dc:description>Column 1: All NYC zipcodes. Integer datatype
+	</dc:description>
+	<dc:description>Column 2: Number of trees for each NYC zip code. Integer datatype
+	</dc:description>
+	<dc:description>Column 3: Mean property valuation recorded for each particular NYC zip code marked area. Float datatype
+	</dc:description>
+	<dc:description>Column 4: NYC zipcodes. Comes from the merging of species_by_zip.csv and property_value_by_zip.csv. Integer datatype
+	</dc:description>
+	<dc:description>Column 5 - 136 : There are 132 different species of trees recorded in the NYC Tree Census data. Each column represents the number trees of that particular species recorded for the zipcodes in "zipcodes" column. Integer datatype
+	</dc:description>
+
+	<dc:rights>None</dc:rights>
+
+</metadata>

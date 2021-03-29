@@ -1,0 +1,27 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     mean_property_value   R-squared:                       0.081
+Model:                             OLS   Adj. R-squared:                  0.076
+Method:                  Least Squares   F-statistic:                     15.45
+Date:                 Wed, 16 Dec 2020   Prob (F-statistic):           0.000122
+Time:                         14:58:12   Log-Likelihood:                -2833.6
+No. Observations:                  177   AIC:                             5671.
+Df Residuals:                      175   BIC:                             5677.
+Df Model:                            1                                         
+Covariance Type:             nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+Intercept        2.133e+06   2.73e+05      7.813      0.000    1.59e+06    2.67e+06
+number_of_trees  -223.2149     56.786     -3.931      0.000    -335.289    -111.141
+==============================================================================
+Omnibus:                      315.425   Durbin-Watson:                   1.698
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            68690.391
+Skew:                           8.795   Prob(JB):                         0.00
+Kurtosis:                      97.892   Cond. No.                     8.00e+03
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large,  8e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

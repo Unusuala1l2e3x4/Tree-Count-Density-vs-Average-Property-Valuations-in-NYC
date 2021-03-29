@@ -1,0 +1,25 @@
+                                 OLS Regression Results                                
+=======================================================================================
+Dep. Variable:     np.log(mean_property_value)   R-squared:                       0.365
+Model:                                     OLS   Adj. R-squared:                  0.361
+Method:                          Least Squares   F-statistic:                     100.6
+Date:                         Wed, 16 Dec 2020   Prob (F-statistic):           5.49e-19
+Time:                                 14:58:17   Log-Likelihood:                -149.90
+No. Observations:                          177   AIC:                             303.8
+Df Residuals:                              175   BIC:                             310.2
+Df Model:                                    1                                         
+Covariance Type:                     nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+Intercept                  17.3250      0.366     47.281      0.000      16.602      18.048
+np.log(number_of_trees)    -0.4592      0.046    -10.029      0.000      -0.550      -0.369
+==============================================================================
+Omnibus:                        8.263   Durbin-Watson:                   1.374
+Prob(Omnibus):                  0.016   Jarque-Bera (JB):               13.043
+Skew:                           0.214   Prob(JB):                      0.00147
+Kurtosis:                       4.259   Cond. No.                         69.8
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
