@@ -16,6 +16,8 @@ def species_random_forest(inpath='data/zipcodes.csv'):
     clf.fit(X,y)
     print("World!")
 
+    print(clf.score(X,y)) # 0.7963379562064322
+
 
     importances = pd.DataFrame(dict(name=count_columns, importance=clf.feature_importances_)).sort_values('importance', ascending=False).head(10)
     print(importances)
